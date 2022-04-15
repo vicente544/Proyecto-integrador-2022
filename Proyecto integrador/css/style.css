@@ -16,3 +16,16 @@ body{
 .logo{
     text-align: center;
 }
+
+.artistas{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+img{
+
+    height: 40%;
+    width: 55%;
+}
