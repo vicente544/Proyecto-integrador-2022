@@ -23,12 +23,12 @@ body{
 .logo{
     width: 100px;
     height: 100px;
-    margin: 0%;
-    padding: 0%;
+    margin: 15px;
 } 
 .nombre{
     text-align: left;
     vertical-align: middle;
+    margin: 15px;
 }
 .fotomc{
     width: 300px;
@@ -59,4 +59,10 @@ body{
 }
 .barra{
     border-color: #8034eb;
+}
+@media (max-width: 420px){
+
+}
+@media(max-width: 1024px){
+
 }
