@@ -1,68 +1,133 @@
-body{
-    font-family: 'Rubik', sans-serif;
-    background-color: black;
-    color: #8034eb;
-}
-.buscador{
-    text-align: right;
-    margin-right: 30px;
-}
-.footer{
-    text-align: center;
-}
-.homelinks{
-    text-align: center;
-    color: #8034eb;
-    text-decoration: none;
-    margin: 15px;
-}
-.logonombre{
-    display: flex;
-    flex-direction: column;
-}
-.logo{
-    width: 100px;
-    height: 100px;
-    margin: 15px;
-} 
-.nombre{
-    text-align: left;
-    vertical-align: middle;
-    margin: 15px;
-}
-.fotomc{
-    width: 300px;
-    height: 300px;
-    margin: auto;
-    display: block;
-    border-radius: 50%;
-}
-.namemc{
-    text-align: center;
-}
-.topvaf{
-    color: gray;
-}
-.flexfav{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 300px;
-}
-.topflexfav{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 40px;
-}
-.barra{
-    border-color: #8034eb;
-}
-@media (max-width: 420px){
+/*le puse mas px porque por defecto mi pc es mas de 1024px3*/
 
-}
-@media(max-width: 1024px){
+@media (max-width: 1524px){
 
+    body{
+        font-family: 'Rubik', sans-serif;
+        background-color: black;
+        color: #8034eb;
+    }
+    .buscador{
+        text-align: right;
+        margin-right: 30px;
+    }
+    .footer{
+        text-align: center;
+    }
+    .homelinks{
+        text-align: center;
+        color: #8034eb;
+        text-decoration: none;
+        margin: 15px;
+    }
+    .logonombre{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        margin: 15px;
+    } 
+    .nombre{
+        text-align: left;
+        vertical-align: middle;
+        margin: 15px;
+    }
+    .fotomc{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        display: block;
+        border-radius: 50%;
+    }
+    .namemc{
+        text-align: center;
+    }
+    .topvaf{
+        color: gray;
+    }
+    .flexfav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 300px;
+    }
+    .topflexfav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 40px;
+    }
+    .barra{
+        border-color: #8034eb;
+    }
+}
+    
+
+@media (max-width: 425px){
+        body{
+            font-family: 'Rubik', sans-serif;
+            background-color: black;
+            color: #8034eb;
+        }
+        .buscador{
+            text-align: right;
+            margin-right: 30px;
+        }
+        .footer{
+            text-align: center;
+        }
+        .homelinks{
+            text-align: center;
+            color: #8034eb;
+            text-decoration: none;
+            margin: 15px;
+        }
+        .logonombre{
+            display: flex;
+            flex-direction: column;
+        }
+        .logo{
+            width: 50px;
+            height: 50px;
+            margin: 7px;
+        } 
+        .nombre{
+            text-align: left;
+            vertical-align: middle;
+            margin: 10px;
+        }
+        .fotomc{
+            width: 150px;
+            height: 150px;
+            margin: auto;
+            display: block;
+            border-radius: 50%;
+        }
+        .namemc{
+            text-align: center;
+        }
+        .topvaf{
+            color: gray;
+        }
+        .flexfav{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+            height: 300px;
+        }
+        .topflexfav{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+            height: 40px;
+        }
+        .barra{
+            border-color: #8034eb;
+        }
 }
