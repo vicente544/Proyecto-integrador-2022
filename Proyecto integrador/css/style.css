@@ -5,22 +5,131 @@ body{
 }
 .buscador{
     text-align: right;
+    margin-right: 30px;
 }
 .footer{
     text-align: center;
 }
 .homelinks{
-    text-align: left;
-    color: black;
+    text-align: center;
+    color: #8034eb;
+    text-decoration: none;
+    margin: 15px;
+}
+.logonombre{
+    display: flex;
+    flex-direction: column;
 }
 .logo{
+    width: 100px;
+    height: 100px;
+    margin: 0%;
+    padding: 0%;
+} 
+.nombre{
+    text-align: left;
+    vertical-align: middle;
+}
+.fotomc{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+.namemc{
     text-align: center;
 }
-
-.artistas{
-    position: relative;
-    width: 500px;
-    height: 500px;
+.topvaf{
+    color: gray;
+}
+.flexfav{
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px;
+}
+.topflexfav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+}
+.barra{
+    border-color: #8034eb;
+}
+
+.listados{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.art{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.led{
+    width: 250px;
+    height: 200px;
+}
+.pink{
+    width: 250px;
+    height: 200px;
+}
+
+.mac{
+    width: 250px;
+    height: 200px;
+    padding-right: 50px;
+}
+
+.pac{
+    width: 250px;
+    height: 200px;
+}
+
+.rels{
+    width: 250px;
+    height: 200px;
+}
+
+.alb{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 500px;
+}
+
+
+.ani{
+    width: 200px;
+    height: 200px;
+}
+
+.graf{
+    width: 200px;
+    height: 200px;
+}
+
+.eyez{
+    width: 200px;
+    height: 200px;
+}
+
+.circ{
+    width: 200px;
+    height: 200px;
+}
+
+.isla{
+    width: 200px;
+    height: 200px;
 }

@@ -8,56 +8,63 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/b962fa32af.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <form action="./search-resutls.html" method="get">
+        <form action="./search-results.html" method="get">
             <div class="buscador">
                 <input type="search" name="search" value="" placeholder="Buscador..."><button type="submit">BUSCAR</button>
             </div>
-            <div class="homelinks">              
-            </div>
         </form>
+        <div class="logonombre">
+            <img src="./imagenes/logo.png" alt="Logo Proyecto" class="logo">
+            <p class="nombre">ATLAS MUSIC</p>
+        </div>
+        <div class="homelinks">    
+         <a href="./index.html" class="homelinks">| HOME |</a> 
+         <a href="./playlist.html" class="homelinks">| PLAYLIST |</a> 
+         <a href="" class="homelinks">| GENRES |</a>
+         <a href="" class="homelinks">| DETAIL GENRES |</a>
+         <a href="./detail-artist.html" class="homelinks">| DETAIL ARTIST |</a>  
+         <a href="./detail-album.html" class="homelinks">| DETAIL ALBUM |</a>
+         <a href="./detail-track.html" class="homelinks">| DETAIL TRACK |</a>
+        </div>
     </header>
-    <footer class="footer">
-        | MARCOS DAIREUX | VICENTE OSCAMOU MALLEA | IGNACIO SKINNER |
-    </footer>
 
-    <div class="artistas">
+    <div class="listados">
     <h2>Artistas</h2>
-     <ol>
+     <ul type="none" class="art">
         <li>Pink floyd</li>
-        <img src="./imagenes/Pinkfloyd.jpg" alt="pink floyd">
+        <img src="./imagenes/Pinkfloyd.jpg" class="pink" alt="pink floyd">
         <li>Led Zeppelin</li>
-        <img src="./imagenes/zeppelin.jpg" alt="led zeppelin">
+        <img src="./imagenes/zeppelin.jpg" class="led" alt="led zeppelin">
         <li>2pac</li>
-        <img src="./imagenes/2pac.jpg" alt="2pac">
+        <img src="./imagenes/2pac.jpg" class="pac" alt="2pac">
         <li>Mac Miller</li>
-        <img src="./imagenes/MacMiller.jpg" alt="mac">
+        <img src="./imagenes/MacMiller.jpg" class="mac"alt="mac">
         <li>Rels B</li>
-        <img src="./imagenes/rels.jpg" alt="rels">
-     </ol>
-    </div>
-
-
+        <img src="./imagenes/rels.jpg" class="rels" alt="rels">
+     </ul>
 
     <h2>Albums</h2>
-   <ol class="albumes">
+   <ul type="none" class="alb">
         <li>Animals</li>
-        <img src="" alt="">
+        <img src="./Img/animals.jpg" class="ani"  alt="a">
         <li>Physical Graffiti</li>
-        <img src="" alt="">
+        <img src="./Img/graffiti.jpeg" class="graf" alt="g">
         <li>All Eyez On Me</li>
-        <img src="" alt="">
+        <img src="./Img/eyez.jpg" class="eyez" alt="al">
         <li>Circles</li>
-        <img src="" alt="">
+        <img src="./Img/circles.jpg" class="circ" alt="c">
         <li>La Isla LP</li>
-        <img src="" alt="">
-    </ol>
+        <img src="./Img/isla.jpg" class="isla" alt="l">
+    </ul>
+   
 
-<h2>Canciones</h2>
-<ol class="canciones">
+ <h2>Canciones</h2>
+ <ul type="none">
     <li>Dogs - Pink Floyd</li>
     <img src="" alt="">
     <li>Kashmir - Led Zeppelin</li>
@@ -68,9 +75,12 @@
     <img src="" alt="">
     <li>Me Olvide De Los Dos - Rels B</li>
     <img src="" alt="">
-</ol>
-
-
+ </ul>
+</div>
+ <footer class="footer">
+    <p> <i class="fa-solid fa-copyright"></i> ATLAS MUSIC POWERED BY</p>
+    | MARCOS DAIREUX | VICENTE OSCAMOU MALLEA | IGNACIO SKINNER |
+ </footer>
 
 </body>
 </html>
