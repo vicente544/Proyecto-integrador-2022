@@ -192,11 +192,14 @@
 }
 .animales{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 .imagenes1{
-    width: 600px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    border: solid whitesmoke 3px;
+    margin: 5px;
 }
 .parrafoPF{
  font-size: 15px;
@@ -219,4 +222,19 @@ text-align: right;
 .titulo3{
     text-align: right;
 }
-
+.parrafo1{
+    text-align: right;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.titulos1{
+    font-size: 40px;
+    text-decoration: underline;
+}
+.titulos2{
+    font-size: 25px;
+}
+.video1{
+    align-content: center;
+   
+}
