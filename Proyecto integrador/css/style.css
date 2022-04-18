@@ -138,41 +138,69 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    text-decoration: none;
 }
 
 
 .article{
     display: flex;
     height: 500px;
+    width: 900px;
+}
+
+.artistas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-decoration: none;
+    text-align: center;
 }
 
 .img-a{
     width: 230px;
     height: 190px;
-    margin:10px;
+    margin:20px;
 }
 
 .albumes{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-start;
+    text-align: center;
 }
 
 .img-b{
     width: 200px;
     height: 200px;
+    margin: 20px;
 }
 
 .canciones{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-start;
+    text-align: center;
+    text-decoration: none;
 }
 
 .img-c{
     width: 200px;
     height: 200px;
+    margin: 20px;
 }
 
+p{
+    padding-left: 20px;
+}
+
+.titulo-g{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.generos{
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    color: #8034eb;
+}
