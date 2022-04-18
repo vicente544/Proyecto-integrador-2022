@@ -139,40 +139,23 @@
     flex-direction: column;
 }
 
-.art{
+.
+
+
+.article{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
-    height: 500px;
+    justify-content: space-between;
+    height: 600px;
 }
 
-.led{
-    width: 250px;
-    height: 200px;
-}
-.pink{
-    width: 250px;
+.img-a{
+    width: 230px;
     height: 200px;
 }
 
-.mac{
-    width: 250px;
-    height: 200px;
-    padding-right: 50px;
-}
-
-.pac{
-    width: 250px;
-    height: 200px;
-}
-
-.rels{
-    width: 250px;
-    height: 200px;
-}
-
-.alb{
+.albumes{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -181,27 +164,12 @@
 }
 
 
-.ani{
+.img-b{
     width: 200px;
     height: 200px;
 }
 
-.graf{
-    width: 200px;
-    height: 200px;
-}
-
-.eyez{
-    width: 200px;
-    height: 200px;
-}
-
-.circ{
-    width: 200px;
-    height: 200px;
-}
-
-.isla{
+.img-c{
     width: 200px;
     height: 200px;
 }
