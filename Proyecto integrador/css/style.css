@@ -205,3 +205,35 @@
     width: 200px;
     height: 200px;
 }
+.animales{
+    text-align: center;
+    font-size: 30px;
+}
+.imagenes1{
+    width: 600px;
+    height: 300px;
+}
+.parrafoPF{
+ font-size: 15px;
+text-align: right;
+}
+.contenedorpadre{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-around;
+    height: 30px;
+    padding: 15px;
+}
+.imgda{
+    width: 125px;
+    height: 100px;
+}
+.titulo3{
+    text-align: right;
+}
+.imagenes4{
+    text-align: center;
+}
