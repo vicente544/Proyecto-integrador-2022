@@ -134,7 +134,8 @@
       
     }
 
-.listados{
+
+.divprin{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -143,15 +144,13 @@
 
 .article{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 600px;
+    height: 500px;
 }
 
 .img-a{
     width: 230px;
-    height: 200px;
+    height: 190px;
+    margin:10px;
 }
 
 .albumes{
@@ -159,16 +158,66 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
-    height: 500px;
 }
-
 
 .img-b{
     width: 200px;
     height: 200px;
 }
 
+.canciones{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
 .img-c{
     width: 200px;
     height: 200px;
 }
+
+.eyez{
+    width: 200px;
+    height: 200px;
+}
+
+.circ{
+    width: 200px;
+    height: 200px;
+}
+
+.isla{
+    width: 200px;
+    height: 200px;
+}
+.animales{
+    text-align: center;
+    font-size: 30px;
+}
+.imagenes1{
+    width: 600px;
+    height: 300px;
+}
+.parrafoPF{
+ font-size: 15px;
+text-align: right;
+}
+.contenedorpadre{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-around;
+    height: 30px;
+    padding: 15px;
+}
+.imgda{
+    width: 125px;
+    height: 100px;
+}
+.titulo3{
+    text-align: right;
+}
+
