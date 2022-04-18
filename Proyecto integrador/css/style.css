@@ -133,7 +133,6 @@
       
 }
 
-<<<<<<< HEAD
 .listados{
     display: flex;
     flex-wrap: wrap;
@@ -206,19 +205,3 @@
     width: 200px;
     height: 200px;
 }
-=======
-    .animales{
-        text-align: center;
-       
-    }
-    .imagenes1{
-        width: 50%;
-        height: 300px;
-        margin: auto;
-        display: block;
-    }
-    .titulos1{
-        text-decoration: underline;
-        font-size: 45px;
-    }
->>>>>>> 699eb59d485ab4c89e02f885899237c9bdc85bc2
