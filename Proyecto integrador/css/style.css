@@ -134,17 +134,41 @@
       
     }
 
-    .animales{
-        text-align: center;
-       
-    }
-    .imagenes1{
-        width: 50%;
-        height: 300px;
-        margin: auto;
-        display: block;
-    }
-    .titulos1{
-        text-decoration: underline;
-        font-size: 45px;
-    }
+.listados{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.img-a{
+    width: 230px;
+    height: 200px;
+}
+
+.albumes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 500px;
+}
+
+
+.img-b{
+    width: 200px;
+    height: 200px;
+}
+
+.img-c{
+    width: 200px;
+    height: 200px;
+}
