@@ -133,26 +133,23 @@
       
 }
 
-.listados{
+
+.divprin{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
-.
-
 
 .article{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 600px;
+    height: 500px;
 }
 
 .img-a{
     width: 230px;
-    height: 200px;
+    height: 190px;
+    margin:10px;
 }
 
 .albumes{
@@ -160,16 +157,22 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
-    height: 500px;
 }
-
 
 .img-b{
     width: 200px;
     height: 200px;
 }
 
+.canciones{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
 .img-c{
     width: 200px;
     height: 200px;
 }
+
