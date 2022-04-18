@@ -60,6 +60,7 @@
         flex-direction: row;
         justify-content: space-around;
         height: 40px;
+        color: #8034eb;
     }
     .barra{
         border-color: #8034eb;
@@ -118,7 +119,7 @@
             flex-wrap: wrap;
             flex-direction: row;
             justify-content: space-around;
-            height: 300px;
+            height: 40px;
         }
         .topflexfav{
             display: flex;
@@ -131,66 +132,69 @@
             border-color: #8034eb;
         }
       
-}
+    }
 
 
 .divprin{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    text-decoration: none;
 }
 
 
 .article{
     display: flex;
     height: 500px;
+    width: 900px;
+}
+
+.artistas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-decoration: none;
+    text-align: center;
 }
 
 .img-a{
     width: 230px;
     height: 190px;
-    margin:10px;
+    margin:20px;
 }
 
 .albumes{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-start;
+    text-align: center;
 }
 
 .img-b{
     width: 200px;
     height: 200px;
+    margin: 20px;
 }
 
 .canciones{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-start;
+    text-align: center;
+    text-decoration: none;
 }
 
 .img-c{
     width: 200px;
     height: 200px;
+    margin: 20px;
 }
 
-.eyez{
-    width: 200px;
-    height: 200px;
+p{
+    padding-left: 20px;
 }
 
-.circ{
-    width: 200px;
-    height: 200px;
-}
-
-.isla{
-    width: 200px;
-    height: 200px;
-}
-.animales{
+.titulo-g{
     text-align: center;
     font-size: 25px;
 }
@@ -237,4 +241,7 @@ text-align: right;
 .video1{
     align-content: center;
    
+}
+.animales{
+    text-align: center;
 }
