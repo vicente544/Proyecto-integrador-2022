@@ -219,7 +219,6 @@ text-align: right;
     height: 30px;
     padding: 15px;
 }
-<<<<<<< HEAD
 
 .tit-hiphop{
     text-align: center;
@@ -240,31 +239,3 @@ text-align: right;
     height: 200px;
     margin: 20px;
 }
-=======
-.imgda{
-    width: 125px;
-    height: 100px;
-}
-.titulo3{
-    text-align: right;
-}
-.parrafo1{
-    text-align: right;
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
-}
-.titulos1{
-    font-size: 40px;
-    text-decoration: underline;
-}
-.titulos2{
-    font-size: 25px;
-}
-.video1{
-    align-content: center;
-   
-}
-.animales{
-    text-align: center;
-}
->>>>>>> d3926fe1290a840beb54bbdeda24c33f22ddfcf7
