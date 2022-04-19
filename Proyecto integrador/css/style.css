@@ -209,6 +209,10 @@ p{
  font-size: 15px;
 text-align: right;
 }
+.parrafo1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
 .contenedorpadre{
     box-sizing: border-box;
     display: flex;
@@ -218,6 +222,23 @@ text-align: right;
     justify-content: space-around;
     height: 30px;
     padding: 15px;
+}
+.imgda{
+    width: 150px;
+    height: 100px;
+}
+.animales{
+    text-align: center;
+}
+.titulos1{
+    font-size: 35px;
+    text-decoration: underline;
+}
+.titulos2{
+    font-size: 25px;
+}
+.titulo3{
+    text-align: right;
 }
 
 .tit-hiphop{
