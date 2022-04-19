@@ -205,3 +205,23 @@ p{
     padding: 15px;
     color: #8034eb;
 }
+
+.tit-hiphop{
+    text-align: center;
+}
+
+
+
+.info-h{
+    text-align: center;
+}
+
+.cantantes-p{
+    padding-top: 40px;
+}
+
+.img-cant{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
