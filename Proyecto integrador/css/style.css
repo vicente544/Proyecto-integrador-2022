@@ -253,14 +253,6 @@
     margin: 20px;
 }
 
-.imagenes1{
-    width: 400px;
-    height: 200px;
-    padding: 10px;
-    border: solid whitesmoke 3px;
-    margin: 5px;
-}
-
 .topvaf{
     color: gray;
 }
@@ -313,6 +305,13 @@ p{
 .parrafoPF{
    font-size: 15px;
    text-align: right;
+}
+.imagenes1{
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    border: solid black 3px;
+    margin: 5px;
 }
 .parrafo1{
     font-family: 'Times New Roman', Times, serif;
