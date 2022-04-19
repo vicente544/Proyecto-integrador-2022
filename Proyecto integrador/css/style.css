@@ -328,7 +328,15 @@ p{
 
 .tit-hiphop{
     text-align: center;
+    padding-top: 40px;
 }
+
+
+.text-cant{
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
 
 .info-h{
     text-align: center;
